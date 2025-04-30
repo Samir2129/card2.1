@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Card</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="card">
+    <img src="birthday-bg.png" alt="Birthday Background" class="background"/>
+
+    <div class="photo-frame">
+      <img id="uploadedImage" class="photo-preview" src="" alt="Your Photo"/>
+      <input type="file" id="photoInput" accept="image/*"/>
+    </div>
+
+    <div class="name" contenteditable="true">Your Name</div>
+    <div class="message" contenteditable="true">
+      Wishing you a day filled with joy and a year filled with happiness. Enjoy your special day!
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
